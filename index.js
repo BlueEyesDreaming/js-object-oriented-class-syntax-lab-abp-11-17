@@ -1,4 +1,4 @@
-class BoardMember{
+class BoardMember {
   constructor(name, homeState, training) {
   this.name = name;
   this.homeState = homeState;
@@ -26,9 +26,8 @@ class BoardMember{
   }
 }
 
-// class Ceo extends BoardMember {
-//     hireEmployee() {
-//       return 'Welcome aboard!'
-//     }
-//   }
-// }
+class Ceo extends BoardMember {
+    hireEmployee() {
+      return 'Welcome aboard!'
+    }
+  }
